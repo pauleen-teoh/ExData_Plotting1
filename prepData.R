@@ -31,3 +31,14 @@ str(consumption)
 # $ Sub_metering_2       : num  0 0 0 0 0 0 0 0 0 0 ...
 # $ Sub_metering_3       : num  0 0 0 0 0 0 0 0 0 0 ...
 
+source("plot1.R")
+plot1(consumption)
+
+source("plot2.R")
+plot2(consumption)
+
+source("plot3.R")
+plot3(consumption)
+
+source("plot1.4")
+plot4(consumption)
